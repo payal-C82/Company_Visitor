@@ -1,0 +1,59 @@
+body{
+    background: url("add_user_img.jpg") no-repeat center center/cover;
+    
+ }
+ #form{
+     display: flex;
+     flex-direction: column;
+     background-color: rgb(236, 235, 232);
+     width: 30%;
+     margin: 90px auto;
+     padding: 50px;
+     box-shadow: 10px 10px 5px rgb(18, 13, 18);
+     border-radius: 4px;
+     font-size: large;
+     backdrop-filter: blur(5px);
+ }
+ #input{
+     padding: 3px;
+     margin: 1px;
+     width: 90%;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     background: rgba(148, 228, 200, 0.5);
+     font-stretch: narrower;
+ }
+ 
+ #submit{
+     color: white;
+     border: none;
+     border-radius: 30px;
+     font-size: large;
+     height: 45px;
+     outline: none;
+     width: 300px;
+     background: rgba(22, 37, 247, 0.7);
+     cursor: pointer;
+     transition: 3s;
+     box-shadow: 3px 3px rgb(0, 0, 0);
+     
+ }
+ .btn1{
+     float: center;
+     background-color: rgb(87, 180, 216);
+     height: 28px;
+     border: none;
+     outline: none;
+     border-radius: 4px;
+    
+ }
+ .error{
+     color: red;
+ }
+ @media(max-width:900px){
+    #form{
+        width:95%;
+        padding: 40px;
+    }
+ }

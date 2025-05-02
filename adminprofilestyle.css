@@ -1,0 +1,36 @@
+.header{
+    background-color: aqua;
+    text-transform: uppercase;
+}
+#form{
+    display: flex;
+    background-color:rgb(232, 226, 239);
+    width:30%;
+    margin:120px auto;
+    padding:50px;
+    border-radius: 4px;
+}
+#input{
+    border: none;
+    outline: none;
+}
+
+#update{
+    background-color: rgb(0, 255, 38);
+    font-size: large;
+    border: none;
+    outline: none;
+    height: 35px;
+    width: 100px; 
+}
+
+a img{
+    float: center;
+    
+    
+   
+}
+.adminbtns{
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,0 +1,271 @@
+
+body{
+    background: rgb(226, 226, 226);
+}
+.header{
+    background-color: transparent;
+    left: 400px;
+    top: 0;
+    width: 500px;
+    
+    height: 30px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    width: 65px;
+    background: #fff;
+    overflow: hidden;
+    transition: 1s;  
+
+}
+nav:hover{
+    width: 280px;
+    transition: 1s;  
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+    padding-bottom: 3rem;
+}
+.logo img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 10px;
+
+}
+
+a{
+    position: relative;
+    width: 280px;
+    font-size: 14px;
+    color: rgb(85, 83, 83);
+    display: table;
+    padding: 10px;
+}
+.dashlogo span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 0cqh;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 25px;
+}
+.dashlogo img{
+    position: relative;
+    
+   
+}
+
+/*.nav_item{
+    position: relative;
+    top: 12px;
+    margin-left: 10x;
+}*/
+a:hover{
+    background: #eee;
+}
+a:hover img{
+    color: #34af6d;
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+}
+
+/*main section*/
+/*
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+  
+
+
+}*/
+
+
+.card{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    left: 10px;
+    height: 150px;
+    width: 220PX;
+    top:120px;
+    background: #b8d8f4;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.card a{
+    top: 90px;
+    right: 9px;
+    cursor: pointer;
+    background: #3c5be2;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+    height:40px;
+    align-items: center;
+    font-weight: bold;
+
+    
+}
+.card1{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    left: 70px;
+    height: 150px;
+    width: 220px;
+    top:120px;
+    background: #43e8a9;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.card1 a{
+    top: 90px;
+    right: 0px;
+    height:40px;
+    cursor: pointer;
+    background: #1cd95b;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.card2{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    left: 130px;
+    height: 150px;
+    width: 220px;
+    top:120px;
+    background: #e3c153;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.card2 a{
+    top: 90px;
+    right: 0px;
+    height:40px;
+    cursor: pointer;
+    background: #999703;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.card3{
+    position: relative;
+    display: flex;
+    padding: 20px;
+    left: 180px;
+    height: 150px;
+    width: 220px;
+    top:120px;
+    background: #ca6c6c;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.card3 a{
+    top: 90px;
+    height:40px;
+
+    right: 0px;
+    cursor: pointer;
+    background: #ec5858;
+    display: flex;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+@media(max-width:1200px){
+    body{
+        width: 95%;
+    }
+}
+@media(max-width:200px){
+    .container{
+        width: 30%;
+        padding: 10px;
+
+        
+    }
+}
+@media (max-width: 100px) {
+    .card3 {
+        width: 20%;
+        flex: 1 1 calc(33% - 40px);
+        
+    }
+}
+
+@media (max-width: 100px) {
+    .card2 {
+    
+        flex: 1 1 calc(50% - 40px);
+        padding: 10px;
+    }
+}
+
+@media (max-width: 100px) {
+    .card1 {
+        flex: 1 1 100%;
+        padding: 10px;
+        width: 20%;
+    }
+}
+
+@media (max-width: 100px) {
+
+.card {
+    width: 20%;
+    padding: 10px;
+}
+}
+
+@media (max-width: 100px) {
+    .logo span, .dashlogo span {
+        display: none;
+    }
+
+    .logo img, .dashlogo img {
+        height: 30px;
+        width: 30px;
+    }
+}
